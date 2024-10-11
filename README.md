@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# News App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Notes App that allows you to create, read, update and delete notes. Also has login, signup and logout button for authentication. Used password hashing, salt and pepper to ensure extra security.
 
-## Available Scripts
+## Installing / Getting started
 
-In the project directory, you can run:
+A quick introduction of the minimal setup you need to get the app running.
 
-### `npm start`
+<br>To create React app through CRA, run the following command:
+``` js
+npx create-react-app "AppName"
+```
+The execution speed of the program created through create-react-app (CRA) is slow compared to that of vite. CRA is used to create those app which is bit complex and large.
+<br>You can even create react app through vite. Run the following command if you want to create react app via vite;
+``` js
+npm create vite@latest
+```
+This create the app. After that you need to write the project & package name (you can even skip this part).
+<br>Then choose the required framework using which you intend to build this app.
+<br>Then choose the desired variant (Here you have 4 options: TypeScript, TypeScript with compiler, JavaScript & JavaScript with compiler).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Then run the following commands to navigate to the folder:
+``` js
+cd "folder_name"
+```
+Install all necessary packages using the following command;
+``` js
+npm install
+```
+**OR**
+``` js
+npm i
+```
+Then start the app using the following command;
+``` js
+npm run start
+```
+On following the link provided, you get to see the sample app.
+<br>If you ever intend to change the command for runnig the code, you can do that by making some changes in the package.json file.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Initial Configuration
 
-### `npm test`
+Here are some of the dependencies and devDependencies packages needed to be installed for the project development:
+<br>1. react-router-dom
+<br>This package allows to navigate from one route to the other wihtout page refreshing. To install it, use the following command;
+``` js
+npm i react-router-dom
+```
+To run index.js (from backend) and react-app (frontend) simultaneously, install 'concurrently' using the following command;
+``` js
+npm i concurrently
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+[comment]: # (## Developing
+In order to develop the project, follow these steps)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Building
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To build the project for deployment, run the following command;
+``` js
+npm run build
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[comment]: # (### Deploying/Publishing
+To deploy the project to a server, follow these steps)
 
-### `npm run eject`
+[comment]: # (## Features)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[comment]: # (## Contributing)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Links
++ <a href = "https://github.com/chyroshan066/News-App">Project homepage</a>
++ Other Projects:
+  - <a href = "https://github.com/Roshan9807950330/Text-Utility-App">Text Utility App</a>
+  - <a href = "https://github.com/chyroshan066/News-App">News App</a>
++ <a href = "https://github.com/Roshan9807950330">Profile</a>
+  
+[comment]: # (## Licensing)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
