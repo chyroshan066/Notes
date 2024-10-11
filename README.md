@@ -1,4 +1,4 @@
-# News App
+# Notes App
 
 Notes App that allows you to create, read, update and delete notes. Also has login, signup and logout button for authentication. Used password hashing, salt and pepper to ensure extra security.
 
